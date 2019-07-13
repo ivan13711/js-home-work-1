@@ -4,8 +4,8 @@ var p1 = document.getElementById('picture1');
 var p2 = document.getElementById('picture2');
 var p3 = document.getElementById('picture3');
 var number = document.getElementById('number');
-number.innerHTML = 2;
-   p2.classList.remove("hidden");
+number.innerHTML = 1;
+   p1.classList.remove("hidden");
 left.addEventListener('click', function(){
   if(p1.classList.contains("hidden") && p2.classList.contains("hidden")){
     p2.classList.remove("hidden");

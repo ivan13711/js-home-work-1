@@ -1,6 +1,6 @@
 var left = document.getElementById('left');
 var right = document.getElementById('right');
-var p1 = document.getElementById('picture1');
+var p1 = document.getElementById  ('picture1');
 var p2 = document.getElementById('picture2');
 var p3 = document.getElementById('picture3');
 var number = document.getElementById('number');
